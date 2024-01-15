@@ -35,6 +35,7 @@ const PetDetailsPage = () => {
       ) : error ? (
         <div>
           {/* Redirect to /pet-details-not-found if there was an error! */}
+          <Navigate to="/pet-details-not-found" />
         </div>
       ) : (
         <main>
